@@ -1,0 +1,27 @@
+mkdir ts-poo
+//Creamos la carpeta
+
+cd ts-poo
+//entramos a ella.
+
+git init
+//inicializamos reposiorio.
+
+npm init -y
+//creamos nuestro package.json
+
+npm i -D typescript
+//instalamos TS como dependencia local de desarrollo
+
+npx tsc --version
+//vemos que versión del TS compiler tenemos.
+
+npx tsc --init
+//creamos nuestro tsconfig.jscon
+
+npm i ts-node -D
+//instalamos la librería ts-node en desarrollo para transpilar y hacer más facil nuestra vida con TS.
+
+code .
+//para abrir el VSCode.
+
