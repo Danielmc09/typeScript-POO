@@ -25,3 +25,29 @@ npm i ts-node -D
 code .
 //para abrir el VSCode.
 
+¿Qué es class?
+JavaScript es un lenguaje orientado a objetos, pero está basado en prototipos.
+Las clases son una sintaxis más amigable para trabajar con prototipos, las clases internamente son prototipos.
+La utilizamos para construir instancias de objetos, es como un molde para crear cosas.
+son moldes.
+
+Buenas prácticas
+Es una buena práctica inicializar las propiedades que coloquemos en nuestra clase, ya sea por fuera o dentro de nuestro constructor.
+
+Los prototipos también se diferencia con la POO porque no solamente crean objetos mediante instancias, sino también mediante la clonación.
+
+podemos acceder a las propiedades como a los metodos de una clase.
+
+scope -> alcance de una variable
+
+this -> alcance dentro de una clase
+
+Get
+Con get podemos acceder a una propiedad con un alcance privado, podemos obtener los datos de esa propiedad pero no modificarlos o mutarlos.
+Lo podemos acceder como si fuese una propiedad más de la instancia.
+Por definición, todos los getters tienen que retornar algo.
+
+¿Qué es protected?
+Básicamente, es la forma de heredar propiedades y métodos.
+Es similar a como funciona una propiedad o método privado, pero nos permite realizar herencia.
+
